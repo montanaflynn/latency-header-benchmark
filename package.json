@@ -1,6 +1,6 @@
 {
   "name": "latency-header-benchmark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Benchmark incoming, outgoing, processing and roundtrip latencies for HTTP requests\"",
   "main": "index.js",
   "scripts": {

@@ -1,14 +1,5 @@
 # Latency Headers Benchmark
 
-## Usage
-
-latencyHeadersBenchmark(requestSent, headers)
-
-- `requestSent` - Unix timestamp set right before sending the request
-- `headers` - Object containing the required response headers
-
-## How it works
-
 Latency headers benchmark makes use of these response headers:
 
 - `x-request-received` is set by the server with the timestamp of when the request was received
@@ -20,6 +11,15 @@ To determine the following latency benchmarks:
 - **server processing latency**: time between server receiving the request and sending the response
 - **incoming network latency**: time between server sending the response and client receiving it
 - **total round trip latency**: time between client sending the request and receiving response
+
+[More information](https://github.com/montanaflynn/Latency-Headers-PoC) on why to add these headers.
+
+## Usage
+
+latencyHeadersBenchmark(requestSent, headers)
+
+- `requestSent` - Unix timestamp set right before sending the request
+- `headers` - Object containing the required response headers
 
 ## Get Started
 
