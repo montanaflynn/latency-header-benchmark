@@ -1,0 +1,7 @@
+{
+  "name": "example-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "latency-header-benchmark": "0.0.2"
+  }
+}

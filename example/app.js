@@ -1,24 +1,19 @@
 // Require http for requests
 var http = require('http')
 
-// Require latency-headers-benchmark from the parent directory
-var latencyHeadersBenchmark = require('../index.js')
+// Require latency-headers-benchmark 
+var latencyBenchmark = require('latency-headers-benchmark')
 
-// This is the starting timestamp of when the request was sent
+// Save the timestamp of when the request was sent as its required
 var requestSent = new Date().getTime()
 
-// Send the request
+// Send the request to a server that returns the latency headers
 http.get("http://localhost:1337", function(res) {
 
   // Run the benchmark
-  var results = latencyHeadersBenchmark(requestSent, res.headers)
+  var results = latencyBenchmark(requestSent, res.headers)
 
   // Output the results
   console.log(results)
-
-}).on('error', function(err) {
-
-  // Request was not successful
-  throw err 
 
 })
