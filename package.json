@@ -1,0 +1,30 @@
+{
+  "name": "latency-header-benchmark",
+  "version": "0.0.1",
+  "description": "Benchmark incoming, outgoing, processing and roundtrip latencies for HTTP requests\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Montana Flynn",
+  "license": "ISC",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/montanaflynn/latency-header-benchmark.git"
+  },
+  "keywords": [
+    "http",
+    "latency",
+    "benchmark",
+    "incoming",
+    "outgoing",
+    "network"
+  ],
+  "bugs": {
+    "url": "https://github.com/montanaflynn/latency-header-benchmark/issues"
+  },
+  "homepage": "https://github.com/montanaflynn/latency-header-benchmark"
+}
