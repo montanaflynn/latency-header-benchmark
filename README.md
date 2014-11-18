@@ -1,6 +1,6 @@
 # Latency Headers Benchmark
 
-Latency headers benchmark makes use of these response headers:
+Latency headers benchmark makes use of these HTTP headers from latency header enabled server responses:
 
 - `x-request-received` is set by the server with the timestamp of when the request was received
 - `x-response-sent` is set by the server with the timestamp of when the response was sent
@@ -67,10 +67,12 @@ node app.js
 pkill latencyServer
 ```
 
-### Related projects
+## Related projects
 
 - [Latency Header Proof of Concept](https://github.com/montanaflynn/Latency-Headers-PoC/)
 - [Express Latency Header Middleware](https://github.com/montanaflynn/express-latency-headers)
 - [Koa Latency Header Middleware](https://github.com/montanaflynn/koa-latency-headers)
+
+## MIT license
 
 Copyright (c) 2014, Montana Flynn (http://anonfunction.com/)
