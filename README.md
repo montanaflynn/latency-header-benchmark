@@ -1,6 +1,6 @@
 # Latency Headers Benchmark
 
-Latency headers benchmark makes use of these HTTP headers from latency header enabled server responses:
+Discover latency and networking bottlenecks from latency header enabled HTTP server responses:
 
 - `x-request-received` is set by the server with the timestamp of when the request was received
 - `x-response-sent` is set by the server with the timestamp of when the response was sent
@@ -11,6 +11,8 @@ To determine the following latency benchmarks:
 - **server processing latency**: time between server receiving the request and sending the response
 - **incoming network latency**: time between server sending the response and client receiving it
 - **total round trip latency**: time between client sending the request and receiving response
+
+The original [proof-of-concept](https://github.com/montanaflynn/Latency-Headers-PoC) has more details and examples.
 
 ## Usage
 
