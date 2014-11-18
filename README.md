@@ -15,8 +15,8 @@ latencyHeadersBenchmark(requestSent, headers)
 
 - __requestSent `integer`__ - Timestamp of when the request was sent
 - __headers `object`__ - Required headers object with the following properties
-  - __x-request-received `integer`__ set by the server with the timestamp of when the request was received
-  - __x-response-sent `integer`__ set by the server with the timestamp of when the response was sent
+  - __x-request-received `integer`__ Timestamp of when the request was received by the server
+  - __x-response-sent `integer`__ Timestamp of when the response was sent by the server
 
 __Note:__ All timestamps are milliseconds since epoch
 
@@ -68,11 +68,12 @@ node app.js
 pkill latencyServer
 ```
 
-## Related projects
+## Servers
 
-- [Latency Header Proof of Concept](https://github.com/montanaflynn/Latency-Headers-PoC/)
+- [Node.js Standard Library](https://github.com/montanaflynn/latency-header-benchmark/blob/master/example/server.js)
 - [Express Latency Header Middleware](https://github.com/montanaflynn/express-latency-headers)
 - [Koa Latency Header Middleware](https://github.com/montanaflynn/koa-latency-headers)
+
 
 ## MIT license
 
