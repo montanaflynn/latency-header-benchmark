@@ -1,13 +1,13 @@
 {
   "name": "latency-header-benchmark",
   "version": "0.0.3",
-  "description": "Benchmark incoming, outgoing, processing and roundtrip latencies for HTTP requests\"",
+  "description": "Benchmark HTTP request incoming, outgoing, processing and roundtrip latencies."
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Montana Flynn",
-  "license": "ISC",
+  "license": "MIT",
   "directories": {
     "example": "example"
   },
