@@ -1,11 +1,6 @@
 # Latency Headers Benchmark
 
-Discover latency and networking bottlenecks from latency header enabled HTTP server responses:
-
-- `x-request-received` is set by the server with the timestamp of when the request was received
-- `x-response-sent` is set by the server with the timestamp of when the response was sent
-
-To determine the following latency benchmarks:
+Tool to benchmark latency header enabled HTTP server responses. Returns the following metrics:
 
 - **outgoing network latency**: time between client sending the request and server receiving it
 - **server processing latency**: time between server receiving the request and sending the response
@@ -18,8 +13,12 @@ The original [proof-of-concept](https://github.com/montanaflynn/Latency-Headers-
 
 latencyHeadersBenchmark(requestSent, headers)
 
-- __requestSent `integer`__ - Timestamp in milliseconds since epoch of when the request was sent
-- __headers `object`__ - With required response headers `x-request-received` and `x-response-sent`
+- __requestSent `integer`__ - Timestamp of when the request was sent
+- __headers `object`__ - Required headers object with the following properties
+  - __x-request-received `integer`__ set by the server with the timestamp of when the request was received
+  - __x-response-sent `integer`__ set by the server with the timestamp of when the response was sent
+
+__Note:__ All timestamps are milliseconds since epoch
 
 ## Example
 
