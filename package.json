@@ -1,30 +1,30 @@
 {
-  "name": "latency-header-benchmark",
-  "version": "0.0.3",
-  "description": "Benchmark HTTP request incoming, outgoing, processing and roundtrip latencies."
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Montana Flynn",
-  "license": "MIT",
-  "directories": {
-    "example": "example"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/montanaflynn/latency-header-benchmark.git"
-  },
-  "keywords": [
-    "http",
-    "latency",
-    "benchmark",
-    "incoming",
-    "outgoing",
-    "network"
-  ],
-  "bugs": {
-    "url": "https://github.com/montanaflynn/latency-header-benchmark/issues"
-  },
-  "homepage": "https://github.com/montanaflynn/latency-header-benchmark"
+    "name": "latency-header-benchmark",
+    "version": "0.0.3",
+    "description": "Benchmark HTTP request incoming, outgoing, processing and roundtrip latencies.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Montana Flynn",
+    "license": "MIT",
+    "directories": {
+        "example": "example"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/montanaflynn/latency-header-benchmark.git"
+    },
+    "keywords": [
+        "http",
+        "latency",
+        "benchmark",
+        "incoming",
+        "outgoing",
+        "network"
+    ],
+    "bugs": {
+        "url": "https://github.com/montanaflynn/latency-header-benchmark/issues"
+    },
+    "homepage": "https://github.com/montanaflynn/latency-header-benchmark"
 }
